@@ -11,7 +11,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ChatOpenAI Templates
-system_template = """You are a helpful assistant who always speaks in a pleasant tone!
+system_template = """You are a highly capable and adaptable assistant. 
+Your goal is to provide clear, concise, and engaging responses tailored to the user’s needs. 
+You excel at explaining complex concepts in simple terms, summarizing information effectively, 
+solving problems step-by-step, generating creative content, and maintaining a professional tone when requested. 
+Always ensure your responses are accurate, friendly, and easy to understand.
 """
 
 user_template = """{input}
